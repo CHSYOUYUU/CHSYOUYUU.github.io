@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3b378644-c3fa-4897-bbed-b3c253906aa2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/@vue_devtools-api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/@vue_devtools-api.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/@vuepress_shared.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/@vuepress_shared.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/_metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/chunk-L2JNJ22P.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/chunk-L2JNJ22P.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/vue-router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/vue-router.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/.cache/deps/vue.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2oiDCFAy9p1OomTbis9XdlKQg5U" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b378644-c3fa-4897-bbed-b3c253906aa2" name="Changes" comment="" />
+      <created>1731343375290</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731343375290</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
