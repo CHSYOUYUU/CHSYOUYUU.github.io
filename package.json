@@ -101,6 +101,7 @@
     "strip-bom-string": "^1.0.0",
     "superjson": "^2.2.1",
     "to-regex-range": "^5.0.1",
+    "typescript": "^5.6.3",
     "uc.micro": "^2.1.0",
     "undici-types": "^6.19.8",
     "unicorn-magic": "^0.1.0",
