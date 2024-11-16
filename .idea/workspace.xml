@@ -2,13 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b378644-c3fa-4897-bbed-b3c253906aa2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/Avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/assets/404.html-vW4L4-bQ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/assets/app-DxF3Mptv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/assets/index.html-aJq-zH3F.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/assets/setupDevtools-7MC2TMWH-Dx8Rjay0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/Avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/pages/BlogBuild/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/pages/CSharp/CSharp01.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/pages/CSharp/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/pages/Unity/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/404.html-CbehPLn1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/app-D_4LQd64.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/index.html-BzGi1ozk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/setupDevtools-7MC2TMWH-BtRcJV-R.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +43,29 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="Markdown" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/.vuepress/public" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Code\CHSYOUYUU.github.io\docs\.vuepress\public" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\CHSYOUYUU.github.io\docs" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <myKeys>
+      <visibility group="Gradle Tasks" flag="true" />
+      <visibility group="Maven Goals" flag="true" />
+      <visibility group="Recent projects" flag="true" />
+      <visibility group="Run configurations" flag="true" />
+      <visibility group="com.intellij.ide.actions.runAnything.RunAnythingRunConfigurationProvider" flag="false" />
+      <visibility group="com.intellij.ide.actions.runAnything.activity.RunAnythingRecentProjectProvider" flag="false" />
+      <visibility group="org.jetbrains.idea.maven.execution.MavenRunAnythingProvider" flag="false" />
+      <visibility group="org.jetbrains.plugins.gradle.execution.GradleRunAnythingProvider" flag="false" />
+    </myKeys>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -62,5 +92,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

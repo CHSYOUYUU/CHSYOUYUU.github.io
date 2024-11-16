@@ -16,7 +16,7 @@ export default defineUserConfig({
         // children的text默认情况下：md文件的h1标题 -> children的key值
         {
           text: 'css',
-          children: ['/pages/css/css01.md', '/pages/css/css02.md'],
+          children: ['/pages/', '/pages/BlogBuild/'],
         },
         // 下拉 - children为对象数组
         // children的text自定义
@@ -54,38 +54,19 @@ export default defineUserConfig({
       ],
 
     sidebar: {
-      '/pages/js/': [
+      '/pages/BlogBuild/': [
         {
           text: 'js1',
           collapsible: true, // 可折叠
-          children: ['/pages/js/js01.md', '/pages/js/js02.md'],
-        },
-        {
-          text: 'js2',
-          collapsible: true,
-          children: ['/pages/js/js03.md'],
-        },
-      ],
-      '/pages/css/': [
-        {
-          text: 'css',
-          collapsible: true,
-          children: ['/pages/css/css01.md', '/pages/css/css02.md'],
-        },
-      ],
-      '/pages/html/': [
-        {
-          text: 'html',
-          collapsible: true,
-          children: ['/pages/html/html01.md', '/pages/html/html02.md'],
+          children: ['/pages/Unity/', '/pages/BlogBuild/'],
         },
       ],
     },
 }),
 
   lang: 'zh-CN',
-  title: '一罐酱油',
-  description: '描述',
-  head: [['link', { rel: 'icon', href: '/icon.jpg' }]],
+  //title: '一罐酱油',
+  //description: '描述',
+  head: [['link', { rel: 'icon', href: '/icon.png' }]],
 })
 
