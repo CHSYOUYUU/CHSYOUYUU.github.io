@@ -3,3 +3,4 @@
 /node_modules
 /docs/.vuepress/.temp
 /.idea
+/docs/.vuepress/dist
