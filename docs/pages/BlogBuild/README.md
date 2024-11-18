@@ -1,3 +1,12 @@
-features:
-- title: 博客搭建
-  details: 这是一个基于GitHub和VuePress搭建的个人博客，简单讲述一下搭建的流程。
+# 前置准备
+
+---
+# 基本流程
+
+---
+# 踩坑回顾
+- GitHub开启pages
+- 项目目录与路由关系
+- 项目部署与deploy.sh
+- ssh
+---

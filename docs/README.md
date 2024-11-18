@@ -17,7 +17,7 @@ actions:
 
 features:
 - title: 博客搭建
-  details: 这是一个基于GitHub和VuePress搭建的个人博客，简单讲述一下搭建的流程。
+  details: 授人以鱼不如授人以渔，这是一个基于GitHub的Pages和VuePress搭建的个人博客，简单讲述一下搭建的流程。
 - title: C#知识分享
   details: 工欲善其事，必先利其器。要想读懂源码，了解框架的精巧设计，C#的知识积累必不可少。
 - title: Unity知识分享

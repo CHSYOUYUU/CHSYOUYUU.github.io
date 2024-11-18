@@ -6,67 +6,45 @@ export default defineUserConfig({
   bundler: viteBundler(),
 
   theme: defaultTheme({
-      navbar: [
-        // 单个 link可以是外部链接'https://juejin.cn/user/4107431174222391'
+    lang: 'zh-CN',
+    title: '一罐酱油',
+    //description: '描述',
+    head: [['link', { rel: 'icon', href: '/icon.png' }]],
+    logo: '/icon.png',
+    subSidebar: 'auto',
+    navbar: [
+        { text: '首页', link: '/' },
+        { text: '博客', children: [
+            {
+                text:'博客搭建',
+                link:'/pages/BlogBuild/',
+                activeMatch:'/',
+            },
+            {
+                text:'C#',
+                link:'/pages/CSharp/',
+                activeMatch:'/',
+            },
+            {
+                text:'Unity',
+                link:'/pages/Unity/',
+                activeMatch:'/',
+            },
+        ]},
+        { text: 'Github', link: 'https://github.com/CHSYOUYUU' },
+    ],
+    sidebar: [
         {
-          text: '首页',
-          link: '/',
+            title: '欢迎学习',
+            path: '/',
+            collapsable: true,
+            children: [
+                { title: "学前必读", path: "/" }
+            ]
         },
-        // 下拉 - children为数组
-        // children的text默认情况下：md文件的h1标题 -> children的key值
-        {
-          text: 'css',
-          children: ['/pages/', '/pages/BlogBuild/'],
-        },
-        // 下拉 - children为对象数组
-        // children的text自定义
-        {
-          text: 'html',
-          children: [
-            {
-              text: 'html1',
-              link: '/pages/html/html01.md',
-              // 该元素将一直处于激活状态
-              activeMatch: '/',
-            },
-            {
-              text: 'html2',
-              link: '/pages/html/html02.md',
-              // 该元素在当前路由路径是 /pages/js/ 开头时激活 支持正则表达式
-              activeMatch: '^/pages/js/',
-            },
-          ],
-        },
-        // 下拉嵌套 - 最大深度为 2
-        {
-          text: 'js',
-          children: [
-            {
-              text: 'js基础',
-              children: ['/pages/js/js01.md', '/pages/js/js02.md'],
-            },
-            {
-              text: 'js高级',
-              children: ['/pages/js/js03.md'],
-            },
-          ],
-        }
-      ],
+    ]
+    }),
 
-    sidebar: {
-      '/pages/BlogBuild/': [
-        {
-          text: 'js1',
-          collapsible: true, // 可折叠
-          children: ['/pages/Unity/', '/pages/BlogBuild/'],
-        },
-      ],
-    },
-}),
 
-  lang: 'zh-CN',
-  //title: '一罐酱油',
-  //description: '描述',
-  head: [['link', { rel: 'icon', href: '/icon.png' }]],
 })
 
