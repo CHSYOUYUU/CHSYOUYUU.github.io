@@ -33,17 +33,37 @@ export default defineUserConfig({
         ]},
         { text: 'Github', link: 'https://github.com/CHSYOUYUU' },
     ],
-    sidebar: [
-        {
-            title: '欢迎学习',
-            path: '/',
-            collapsable: true,
-            children: [
-                { title: "学前必读", path: "/" }
-            ]
-        },
-    ]
-    }),
+    sidebar: {
+        '/pages/BlogBuild/':[
+            {
+                text:'博客搭建',
+                //prefix:'',
+                collapsible:false,
+                children:[
+                    '','BlogBuild01',
+                ],
+            }
+        ],
+        '/pages/CSharp/':[
+            {
+                text:'C#',
+                collapsible:false,
+                children:[
+                    '','CSharp01',
+                ],
+            }
+        ],
+        '/pages/Unity/':[
+            {
+                text:'Unity',
+                collapsible:false,
+                children:[
+                    '','Unity01',
+                ],
+            }
+        ],
+    }
+  }),
 
 
 })
