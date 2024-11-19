@@ -8,9 +8,9 @@ export default defineUserConfig({
   theme: defaultTheme({
     lang: 'zh-CN',
     title: '一罐酱油',
-    //description: '描述',
-    head: [['link', { rel: 'icon', href: '/icon.png' }]],
-    logo: '/icon.png',
+    description: '一罐酱油的博客',
+    head: [['link', { rel: 'icon', href: '/Avatar.png' }]],
+    logo: '/Avatar.png',
     subSidebar: 'auto',
     navbar: [
         { text: '首页', link: '/' },
