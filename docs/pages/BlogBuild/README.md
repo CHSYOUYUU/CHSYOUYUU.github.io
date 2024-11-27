@@ -35,16 +35,17 @@ node -v
   npm run docs:dev
   ```
 
-### 构建并部署
-* 构建
-  * 执行对应的命令即可完成构建。
+### 打包并部署
+* 打包
+  * 打包需要打包工具vite，参考 [官网](https://vuepress.vuejs.org/zh/reference/bundler/vite.html) 引入并设置。
+  * 执行对应的命令即可完成打包
     ```
     npm run docs:build
     ```
-  * 执行完会在 **docs/.vuepress/dist** 目录中可以找到构建生成的静态文件。
+  * 执行完会在 **docs/.vuepress/dist** 目录中可以找到打包生成的静态文件。
 * 部署到Github
   * 在Page项目新开一个分支用于部署，我这里命名为 **pages**。
-  * 将构建好的静态文件上传到对应的分支。
+  * 将打包好的静态文件上传到对应的分支。
     * 进入对应的dist文件夹再将对应文件提交推送到Github上。
     * 可以参考以下对应的命令行指令：
       ```
@@ -67,7 +68,7 @@ node -v
       ```
   * 设置仓库的Pages主页。
     ![设置路径](/BlogBuild/PagesSetting.png)
-  * 过5-10分钟后打开对应的 [**链接**](./#%E5%8F%82%E8%80%83%E6%96%87%E7%AB%A0) 查看部署情况。
+  * 过5-10分钟后打开对应的链接查看部署情况。
     ![链接路径](/BlogBuild/PagesSite.png)
 
 ## 踩坑回顾
@@ -108,7 +109,7 @@ node -v
     ```
 ### github的ssh push
 * 因为有可能是clone下来的项目（比如我）没有密钥是不能用命令行推送代码的。
-* 可以参考下面参考文章的第二个链接，或者网络上其他方法，记得本地生成后的密钥要同步到对应仓库的设置才能生效。
+* 可以参考下面参考文章的第二个 [**链接**](https://juejin.cn/post/6844903999129436174) ，或者网络上其他方法，记得本地生成后的密钥要同步到对应仓库的设置才能生效。
 ### 参考文章
 * <https://github.com/mqyqingfeng/Blog/issues/235>
 * <https://juejin.cn/post/6844903999129436174>
