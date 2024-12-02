@@ -76,3 +76,6 @@
      }
   })
   ```
+
+## MarkDown的使用
+### 运用好Markdown格式文本和了解VuePress对MarkDown的支持有助于你编写自己的博客，MarkDown的基本功能可以参考 [官网的快速上手](https://commonmark.org/help/tutorial/index.html) 。
