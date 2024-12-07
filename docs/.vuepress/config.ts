@@ -50,6 +50,7 @@ export default defineUserConfig({
                 collapsible:false,
                 children:[
                     'CSharp_Reflection',
+                    'CSharp_Process',
                     '',
                 ],
             }
