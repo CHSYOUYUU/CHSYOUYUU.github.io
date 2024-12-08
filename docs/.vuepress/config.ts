@@ -51,6 +51,7 @@ export default defineUserConfig({
                 children:[
                     'CSharp_Reflection',
                     'CSharp_Process',
+                    'CSharp_OOP',
                     '',
                 ],
             }
