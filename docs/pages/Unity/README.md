@@ -1,50 +1,82 @@
 # Unity
 [[toc]]
 
-## unity
+## 主题内容
 
-## 生命周期
+| 主题内容 | 完成情况 |
+| :---: | :---: |
+| 生命周期 | √ |
+| UI |  |
+| 物理系统 |  |
+| 动画系统 |  |
+| DrawCall |  |
+| 热更 |  |
+| 资源管理AssetBundle |  |
+| SDK接入 |  |
+| 对象池 |  |
+| ECS |  |
+| 状态机 |  |
+| 行为树 |  |
+| 寻路（算法） |  |
+| 图形 |  |
 
-## UGUI
-### 动静分离
-### Canvas
-### camera模式
+## 子内容设想
 
-## 物理系统
-### collider
-### rigidbody
-### 射线检测
-### Joint
+### UI
 
-## 动画系统
-### animator
-### IK，FK
+* 架构设计
+* UGUI
+* MVC架构
+* 动静分离
+* Canvas
+* camera模式
 
-## DC
+### 物理系统
 
-## 热更
-### LUA
-### ILRunitime
-### HybridClr
-### Addressables
+* collider
+* rigidbody
+* 射线检测
+* Joint
 
-## 资源管理AssetBundle
+### 动画系统
 
-## SDK接入
+* TimeLine
+* Dotween底层实现方式
+* animator
+* IK，FK
 
-## 对象池
+### DrawCall
 
-## ECS
+* 来源
+* 检测
+* 减少
 
-## 状态机
+### 热更
 
-## 行为树
+* LUA
+* ILRunitime
+* HybridClr
+* Addressables
 
-## 寻路（算法）
-### A*算法
-### Dijkstra算法
-### DFS,BFS
+### 资源管理AssetBundle
 
-## 图形
-### 点与点位置判断
-### 点与三角形位置判断
+### SDK接入
+
+### 对象池
+
+### ECS
+
+### 状态机
+
+### 行为树
+
+### 寻路（算法）
+
+* A*算法
+* Dijkstra算法
+* DFS,BFS
+
+### 图形
+
+* 点与点位置判断
+* 点与三角形位置判断
